@@ -1,22 +1,23 @@
-import java.util.Scanner;
-public class tasya10519006_soal1 {
-    public static void main(String[] args){
-        Scanner input = new Scanner (System.in);
-        int [] bilangan = new int[10];
-        System.out.println("------------------------------");
-        System.out.println("------ INPUT BILANGAN --------");
-        System.out.println("------------------------------");
-        int x;
-        for(x=0; x<4; x++){
-          System.out.printf(" input bilangan  ke-%d : ", x+1);
-          bilangan [x] = input.nextInt();
-        }
-        System.out.println("------------------------------");
-        System.out.println("------- INPUT DATA -----------");
-        System.out.println("------------------------------");
-        for(x=0; x<4; x++){
-            System.out.printf(" data  [%d] : ", x+0);
-            bilangan [x] = input.nextInt();
-        }
-    }
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author  tasya widia migianto
+ */
+import javax.swing.JOptionPane;
+public class Tasya10519006_soal1 {
+ public static void main (String[] args) {
+     String nama="Halo";
+     String nama2="halo";
+     String nama3="Bandung";
+     JOptionPane.showMessageDialog (null,"halo");
+     JOptionPane.showMessageDialog (null,"halo" + nama+'\n'+"halo ");
+     JOptionPane.showMessageDialog (null,"halo" + nama2+'\n'+"halo ");
+     JOptionPane.showMessageDialog (null,"halo" + nama3+'\n'+"bandung ");
+  
+ }
 }
