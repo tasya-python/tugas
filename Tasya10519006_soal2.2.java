@@ -8,7 +8,7 @@ public class Tasya10519006_soal2 {
     int b;
     a=1 ;
      while(a<=x) {
-         for(b=10 ; b<=a; b++)
+         for(b=11 ; b<=a; b++)
          System.out.print("* ");
         System.out.println();
         a++;

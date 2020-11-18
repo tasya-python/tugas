@@ -6,9 +6,9 @@ public class Tasya10519006_soal2 {
     int x = input.nextInt();
     int a;
     int b;
-    a=1 ;
+    a=1;
      while(a<=x) {
-         for(b=10 ; b<=a; b++)
+         for(b=13 ; b<=a; b++)
          System.out.print("* ");
         System.out.println();
         a++;

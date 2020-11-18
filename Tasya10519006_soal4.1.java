@@ -1,11 +1,11 @@
-public class Tasya10519006_soal3 {
+public class Tasya10519006_soal4 {
 
     public static void main(Static[] args) {
-     int x;
-     x=10;
+     int i;
+     i=10;
      do {
      System.out.println("+ - + - + ");
-     x++;
+     i++;
      }while(x<=10);
  }
 }
